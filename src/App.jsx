@@ -24,7 +24,7 @@ const eliminarPaciente = id => {
   return(
     <div className='container mx-auto my-10'>
     <Header/>
-    <div className=' mt-10 md:flex'>
+    <div className=' mt-7 md:flex'>
      <Formulario
      pacientes={pacientes}
      setPacientes={setPacientes}

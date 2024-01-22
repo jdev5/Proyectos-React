@@ -79,8 +79,8 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente}) => {
 
   return (
     <div className="md:w-1/2 lg:w-2/5">
-     <h2 className=" text-3xl font-black text-center">Seguimiento Pacientes</h2>
-     <p className="text-lg m-5 text-center"> Añade pacientes y {' '}
+     <h2 className=" text-3xl text-center font-bold">Seguimiento Pacientes</h2>
+     <p className="text-lg m-3 text-center"> Añade pacientes y {' '}
      <span className="text-indigo-600 font-bold">administralos</span>
      </p>
      <form 
